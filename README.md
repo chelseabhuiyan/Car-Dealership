@@ -88,4 +88,26 @@ The first line contains dealership information. All other lines contain vehicle 
 - Entry point of the application
 - Contains `main()` which launches the `UserInterface.display()` method
 
+### Screenshot of Screens
+
+![Homescreen](Screenshots/Homescreen_screenshot.png)
+![Product Display Screen ](Screenshots/productDisplayScreen_screenshot.png)
+![Error message example](Screenshots/error_screenshot.png)
+
+### Interesting Peice of Code
+
+The `processGetByPrice()` method in the `UserInterface` class dynamically interacts with the user to collect a price range and then displays the vehicles that fall within that range.
+This method is a good example of how the `UserInterface` class delegates the logic of filtering vehicles to the `Dealership` class.
+```java
+private void processGetByPrice() {
+    System.out.print("Enter minimum price: ");
+    double min = Double.parseDouble(scanner.nextLine());
+    System.out.print("Enter maximum price: ");
+    double max = Double.parseDouble(scanner.nextLine());
+
+    List<Vehicle> vehicles = dealership.getVehiclesByPrice(min, max);
+    displayVehicles(vehicles);
+}
+
+
 #### Chelsea Bhuiyan May 2025

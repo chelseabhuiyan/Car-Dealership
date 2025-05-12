@@ -90,9 +90,9 @@ The first line contains dealership information. All other lines contain vehicle 
 
 ### Screenshot of Screens
 
-![Homescreen](Screenshots/Homescreen_screenshot.png)
-![Product Display Screen ](Screenshots/productDisplayScreen_screenshot.png)
-![Error message example](Screenshots/error_screenshot.png)
+[Homescreen](Screenshots/Homescreen_screenshot.png)
+[Product Display Screen ](Screenshots/productDisplayScreen_screenshot.png)
+[Error message example](Screenshots/error_screenshot.png)
 
 ### Interesting Peice of Code
 
